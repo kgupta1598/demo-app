@@ -50,7 +50,7 @@
         <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>org.jacoco.agent</artifactId>
-            <version>0.8.0</version>
+            <version>0.8.5</version>
             <classifier>runtime</classifier>
             <scope>test</scope>
         </dependency>
@@ -71,7 +71,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.0</version>
+                <version>0.8.5</version>
                 <executions>
                     <execution>
                         <id>default-instrument</id>
@@ -106,18 +106,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>JULES</id>
-            <name>SANDBONI-SNAPSHOT</name>
-            <url>https://repo.jpmchase.net/maven/content/repositories/SANDBONI-SNAPSHOT</url>
-        </snapshotRepository>
-        <repository>
-            <id>JULES</id>
-            <name>SANDBONI</name>
-            <url>https://repo.jpmchase.net/maven/content/repositories/SANDBONI</url>
-        </repository>
-    </distributionManagement>
 
 </project>
